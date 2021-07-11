@@ -1,0 +1,27 @@
+{
+  "description": "Test for firefox flutter extnesion",
+  "manifest_version": 2,
+  "name": "Firefox Flutter test",
+  "version": "1.0",
+  "homepage_url": "https://flutter.dev/",
+  "icons": {
+    "48": "icons/flutter-logo-48.png"
+  },
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_icon": "icons/flutter-logo-32.png",
+    "theme_icons": [
+      {
+        "light": "icons/flutter-logo-32.png",
+        "dark": "icons/num-flutter-32.png",
+        "size": 32
+      }
+    ],
+    "default_title": "Firefox Flutter",
+    "default_popup": "popup.html"
+  },
+
+  "web_accessible_resources": ["assets/*"]
+}
