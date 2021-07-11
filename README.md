@@ -1,6 +1,14 @@
-# web_extension2
+# Flutter web extension for Chrome and Firefox
 
-A new Flutter project.
+A flutter web extension in a pop-up for Chrome and Firefox.
+
+To build the project, use command : `flutter build web --csp --web-renderer html`
+
+In your generated build/web folder use the manifest.json, index.html, pop-up.html and icon folder from this repository.
+
+- [Install extension in Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#installing)
+- [Install extension in Chrome](https://support.google.com/chrome/a/answer/2714278)
+
 
 ## Getting Started
 
